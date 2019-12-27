@@ -19,7 +19,7 @@ from django.conf.urls import url
 from book_management import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     url(r'^my_index/$', views.index)
     # path('', views.index, name="home")
 ]
